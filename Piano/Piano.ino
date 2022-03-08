@@ -1,4 +1,5 @@
 // include "pitches.h"
+// Defining all notes
 
 #define NOTE_B0  31
 #define NOTE_C1  33
@@ -120,6 +121,7 @@ void setup()
   digitalWrite(LED,LOW);
 }
 
+// Plays song when click 5th button
 
 // notes in the melody:
 int melody[] = {
